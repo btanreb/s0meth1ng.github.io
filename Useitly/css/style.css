@@ -1589,5 +1589,76 @@ section.reviews div.rev-single div.rev-company-info {
 /*              E N D   R E V I E W S             */
 
 
+/*              S T A R T    R E A L I Z A T I O N               */
 
-/*              S T A R T    A B O U T    U S                */
+section.realization {
+    padding: 140px 0;
+}
+
+section.realization h1.company-name {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    color: rgb(36, 31, 31);
+    font-size: 48px;
+}
+
+section.realization h2.company-subname {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(36, 31, 31);
+    line-height: 50px;
+}
+
+section.realization h3.company-desc {
+    margin: 30px 140px 10px;
+    text-align: center;
+    color: rgb(36, 31, 31);
+    font-size: 16px;
+    line-height: 25px;
+}
+
+section.realization>div {
+    display: block;
+    text-align: center;
+}
+
+section.realization div button {
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgb(47, 109, 255);
+    border-radius: 50px;
+    background-color: transparent;
+    margin: 20px 8px;
+}
+
+section.realization div button#realization-slider-left,
+section.realization div button#realization-slider-right {
+    border: 1px solid rgb(112, 112, 112);
+    background-color: rgb(242, 242, 242);
+    color: rgb(47, 109, 255);
+}
+
+section.realization img {
+    display: block;
+    margin: 50px auto 20px;
+    height: 100%;
+    width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+    section.realization h3.company-desc {
+        margin: 30px 40px 10px;
+        text-align: center;
+        color: rgb(36, 31, 31);
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    section.realization img {
+        display: block;
+        margin: 50px auto 20px;
+        height: 100%;
+        width: 100%;
+    }
+}
