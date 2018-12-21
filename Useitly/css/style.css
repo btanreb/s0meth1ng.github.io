@@ -1932,3 +1932,320 @@ section.branding a.or-feedback-btn {
         padding: 15px 5px;
     }
 }
+
+
+/*              E N D     B R A N D I N G              */
+
+/*             S T A R T     A B O U T - U S             */
+
+section.about-us {
+    margin: 0 140px;
+    padding: 120px 0 0;
+}
+
+section.about-us h1.about-us-welcome {
+    color: #241f1f;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 0 80px;
+}
+
+section.about-us h2.about {
+    color: #241f1f;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+section.about-us>p {
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+section.crew {
+    margin: 50px 0;
+}
+
+section.about-us section.crew div.crew-person {
+    width: 100%;
+    margin: 20px 0;
+}
+
+section.about-us section.crew img {
+    width: 210px;
+    height: 211px;
+    border-radius: 26px;
+}
+
+section.about-us section.crew div.crew-person img {
+    float: left;
+    margin: 50px 25px auto 0;
+}
+
+section.about-us section.crew div.crew-person-right img {
+    float: right;
+    margin: 50px 0 auto 25px;
+}
+
+section.about-us section.crew div.crew-person-right h3.crew-name,
+section.about-us section.crew div.crew-person-right p,
+section.about-us section.crew div.crew-person-right h4.crew-jobtitle {
+    text-align: right;
+}
+
+section.about-us section.crew h3.crew-name {
+    color: #241f1f;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+section.about-us section.crew h4.crew-jobtitle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+section.about-us section.crew p {
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+section.about-us h2.how-we-work {
+    color: #241f1f;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+section.about-us h2.how-we-work+p {
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+section.comp-logos {
+    margin: 80px 0;
+}
+
+section.about-us section.comp-logos h2 {
+    color: #241f1f;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+section.about-us section.comp-logos img {
+    display: inline-block;
+    width: 218px;
+    height: 104px;
+    background-color: #e8e8e8;
+    margin: 16px 8px;
+    object-fit: cover;
+
+}
+
+section.about-us section.comp-logos div.comp-logos-container {
+    display: block;
+    text-align: center;
+}
+
+section.about-us h1.first-step {
+    color: #241f1f;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px 200px;
+}
+
+section.about-us h1.contact-us {
+    color: #241f1f;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px 200px 100px;
+}
+
+
+@media only screen and (max-width: 374px) {
+    section.about-us {
+        margin: 0 15px;
+        padding: 120px 0 0;
+    }
+
+    section.about-us h1.about-us-welcome {
+        font-size: 26px;
+        padding: 0 0 60px;
+    }
+
+    section.about-us h2.about {
+        color: #241f1f;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    section.about-us>p {
+        text-align: justify;
+    }
+
+    section.crew {
+        margin: 15px 0;
+    }
+
+    section.about-us section.crew div.crew-person {
+        margin: 10px 0;
+    }
+
+    section.about-us section.crew img {
+        width: 135px;
+        height: auto;
+    }
+
+    section.about-us section.crew div.crew-person img {
+        margin: 50px 13px 12px 0;
+    }
+
+    section.about-us section.crew div.crew-person-right img {
+        margin: 50px 0 12px 13px;
+    }
+
+    section.about-us section.crew h3.crew-name {
+        padding-top: 140px;
+        font-size: 20px;
+    }
+
+    section.about-us section.crew h4.crew-jobtitle {
+        padding-bottom: 15px;
+    }
+
+    section.about-us h2.how-we-work {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    section.comp-logos {
+        margin: 40px 0;
+    }
+
+    section.about-us section.comp-logos h2 {
+        font-size: 20px;
+    }
+
+    section.about-us section.comp-logos img {
+        width: 132px;
+        height: 74px;
+        margin: 5px;
+        object-fit: scale-down;
+    }
+
+    section.about-us h1.first-step {
+        font-size: 20px;
+        line-height: 23px;
+        margin: 10px 0;
+    }
+
+    section.about-us h1.contact-us {
+        font-size: 16px;
+        line-height: 50px;
+        margin: 10px 0 50px;
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 768px) {
+    section.about-us {
+        margin: 0 15px;
+        padding: 120px 0 0;
+    }
+
+    section.about-us h1.about-us-welcome {
+        font-size: 26px;
+        padding: 0 0 60px;
+    }
+
+    section.about-us h2.about {
+        color: #241f1f;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    section.about-us>p {
+        text-align: justify;
+    }
+
+    section.crew {
+        margin: 15px 0;
+    }
+
+    section.about-us section.crew div.crew-person {
+        margin: 10px 0;
+    }
+
+    section.about-us section.crew img {
+        width: 135px;
+        height: auto;
+    }
+
+    section.about-us section.crew div.crew-person img {
+        margin: 50px 13px 12px 0;
+    }
+
+    section.about-us section.crew div.crew-person-right img {
+        margin: 50px 0 12px 13px;
+    }
+
+    section.about-us section.crew h3.crew-name {
+        padding-top: 140px;
+        font-size: 20px;
+    }
+
+    section.about-us section.crew h4.crew-jobtitle {
+        padding-bottom: 15px;
+    }
+
+    section.about-us h2.how-we-work {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    section.comp-logos {
+        margin: 40px 0;
+    }
+
+    section.about-us section.comp-logos h2 {
+        font-size: 20px;
+    }
+
+    section.about-us section.comp-logos img {
+        width: 132px;
+        height: 74px;
+        margin: 5px;
+        object-fit: scale-down;
+    }
+
+    section.about-us h1.first-step {
+        font-size: 20px;
+        line-height: 23px;
+        margin: 10px 0;
+    }
+
+    section.about-us h1.contact-us {
+        font-size: 16px;
+        line-height: 50px;
+        margin: 10px 0 50px;
+    }
+}
