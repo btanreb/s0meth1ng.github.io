@@ -2249,3 +2249,141 @@ section.about-us h1.contact-us {
         margin: 10px 0 50px;
     }
 }
+
+
+/*               S T A R T   B L O G              */
+
+section.blog {
+    background-color: #fff;
+    padding-top: 140px;
+}
+
+section.blog h1 {
+    padding: 0 0 60px;
+    line-height: 50px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(36, 31, 31);
+}
+
+section.blog .blog-item-container {
+    display: block;
+
+    margin: 0 auto;
+    max-width: 938px;
+}
+
+
+section.blog div.blog-item {
+    display: inline-block;
+    margin: 0 7px 79px;
+    width: 296px;
+}
+
+section.blog .blog-thumbnail {
+    padding-bottom: 23px;
+}
+
+section.blog .blog-title {
+    padding-left: 8px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+section.blog .blog-shorttext {
+    padding-left: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+section.blog .blog-bottom-bar {
+    margin-top: 20px;
+    width: 100%;
+    height: 38px;
+    border-radius: 11px;
+    background-color: rgb(238, 238, 238);
+}
+
+section.blog .float-left {
+    padding: 10px;
+    float: left;
+}
+
+section.blog .float-right {
+    padding: 10px;
+    float: right;
+}
+
+section.blog .fav-icon {
+    display: block;
+    background-image: url("../img/serce.png");
+}
+
+section.blog .fav-icon:hover {
+    background-image: url("img/serce_w.png");
+}
+
+section.blog .serce {
+    content: url('../img/serce.png');
+}
+
+section.blog .serce:hover {
+    content: url('../img/serce_w.png');
+}
+
+
+section.blog .comment-icon {
+    display: inline-block;
+}
+
+section.blog .blog-read-more {
+
+    display: inline-block;
+    padding-left: 10px;
+    color: rgb(47, 109, 255);
+    font-size: 16px;
+    font-weight: 700;
+    transform: translate(0, -5px);
+}
+
+section.blog div.pagination {
+    position: absolute;
+    left: 40%;
+}
+
+section.blog div.pagination ul {}
+
+section.blog div.pagination ul li {
+    display: inline;
+    padding: 12px 35px 4px;
+}
+
+section.blog div.pagination ul li a {
+    color: #676767;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+section.blog div.pagination ul li.active {
+    border-radius: 24px;
+    border: 4px solid #2f6dff;
+
+}
+
+section.blog div.pagination ul li.active a {
+    color: #313131;
+}
+
+section.blog div.pagination ul a.pagination-next {
+    display: inline-block;
+    margin-left: 100px;
+    padding: 12px 40px 12px;
+    border-radius: 24px;
+    background-color: #2f6dff;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    transform: translateY(-5px);
+}
