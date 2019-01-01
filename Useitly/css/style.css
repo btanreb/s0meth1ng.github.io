@@ -2528,3 +2528,27 @@ section.our-realizations-2 a.or2-feedback {
     border-radius: 25px;
     background-color: #2f6dff;
 }
+
+@media only screen and (max-width: 1280px) {
+    section.our-realizations-2 div.container {
+        width: 100%;
+        margin: 60px auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    section.our-realizations-2 div.container>div {
+        width: 272px;
+        height: 206px;
+    }
+
+    section.our-realizations-2 div.container>div>img {
+        width: 272px;
+        height: 206px;
+    }
+
+    section.our-realizations-2 a.or2-feedback {
+        width: 280px;
+    }
+}
