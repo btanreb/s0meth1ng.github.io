@@ -638,7 +638,7 @@ section.clients .slider-container div button#client-slider-right {
     color: rgb(255, 109, 109);
 }
 
-section.blog {
+/* section.blog {
     padding: 70px 120px 155px;
     background-color: rgb(243, 243, 243);
 
@@ -656,9 +656,9 @@ section.blog h1 {
 
 .blog-item-container {
     display: block;
-
     margin: 0 auto;
     max-width: 938px;
+    text-align: center;
 }
 
 
@@ -790,7 +790,7 @@ a.blog-more-btn {
     }
 }
 
-
+ */
 
 section.newsletter {
     margin: 0 0 150px 0;
@@ -2255,7 +2255,7 @@ section.about-us h1.contact-us {
 
 section.blog {
     background-color: #fff;
-    padding-top: 140px;
+    padding: 140px 0 100px 0;
 }
 
 section.blog h1 {
@@ -2269,9 +2269,9 @@ section.blog h1 {
 
 section.blog .blog-item-container {
     display: block;
-
     margin: 0 auto;
     max-width: 938px;
+    text-align: center;
 }
 
 
@@ -2353,8 +2353,6 @@ section.blog div.pagination {
     left: 40%;
 }
 
-section.blog div.pagination ul {}
-
 section.blog div.pagination ul li {
     display: inline;
     padding: 12px 35px 4px;
@@ -2386,4 +2384,36 @@ section.blog div.pagination ul a.pagination-next {
     font-weight: 700;
     color: #ffffff;
     transform: translateY(-5px);
+}
+
+@media only screen and (max-width: 1024px) {
+    section.blog {
+        padding: 70px 40px 155px;
+    }
+
+    section.blog h1 {
+        padding: 40px 0 60px;
+    }
+
+    section.blog .blog-item-container {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section.blog {
+        padding: 70px 5px 155px;
+    }
+
+    section.blog div.pagination {
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+
+    section.blog div.pagination ul a.pagination-next {
+        margin-top: 20px;
+    }
+
+
 }
