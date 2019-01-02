@@ -2539,12 +2539,13 @@ section.our-realizations-2 a.or2-feedback {
 
 @media only screen and (max-width: 375px) {
     section.our-realizations-2 div.container>div {
-        width: 272px;
+        width: 100%;
         height: 206px;
+        margin: 27px 0;
     }
 
     section.our-realizations-2 div.container>div>img {
-        width: 272px;
+        width: 100%;
         height: 206px;
     }
 
