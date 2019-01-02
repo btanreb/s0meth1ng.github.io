@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Useitly</title>
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/nav.css">
+   <link href="https://fonts.googleapis.com/css?family=Cabin:500,700&amp;subset=latin-ext" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous">
+   <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+   <script src="js/lang-btn.js"></script>
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+</head>
+
+<body>
+   <nav class="nav">
+      <a href="" class="logo"><img src="img/main-logo-useitly.svg" alt="" class="main-logo"></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+         <li class="menu-item"><a href="#">Home</a></li>
+         <li class="menu-item"><a href="#">Poznajmy się</a></li>
+         <li class="menu-item"><a href="#">Usługi</a></li>
+         <li class="menu-item"><a href="#">Realizacje</a></li>
+         <li class="menu-item"><a href="#">Opinie</a></li>
+         <li class="menu-item"><a href="#">Blog</a></li>
+         <li class="menu-item"><a href="#">Wypełnij brief</a></li>
+         <li class="switch-button-li">
+            <switch-button data-aria-checked data-class-name="switch"></switch-button>
+         </li>
+      </ul>
+   </nav>
+   <section class="brief">
+      <div class="brief-welcome">
+         <h1>Wypełnij brief</h1>
+         <p>Brief daje nam możliwość poznania Twojego projektu – jego głównych założeń, grupy, do której jest
+            kierowany,
+            Twoich oczekiwań wobec niego. Wspólnie go analizujemy. Dopiero na tej podstawie przygotowujemy projekt.
+            Wszystko po to, by finalny projekt był nie tylko interesujący, ale również osiągnął założone przez Ciebie
+            cele
+            biznesowe.</p>
+      </div>
+      <div class="brief-form">
+         <form action="#">
+            <div class="section-one">
+               <h2 class="placeholder">1. Podstawowe informacje</h2>
+               <input type="text" name="firstname" maxlength="40" placeholder="Imie i nazwisko">
+               <input type="text" name="company-name" maxlength="50" placeholder="Nazwa firmy">
+               <input type="email" name="email" maxlength="50" placeholder="Adres email">
+               <input type="text" name="phone" maxlength="16" placeholder="Numer telefonu">
+               <img src="img/brief-people.png">
+            </div>
+            <div class="section-two">
+               <h2 class="placeholder">2. Rodzaj projektu</h2>
+               <label class="container">Branding
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+               </label>
+               <label class="container">Projekt graficzny
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+               </label>
+               <label class="container">Strona www / Sklep internetowy
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+               </label>
+               <label class="container">Copywriting
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+               </label>
+               <label class="container">Social Media
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+               </label>
+               <label class="container">Optymalizacja SEO
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+               </label>
+            </div>
+            <div class="section-three">
+               <h2 class="placeholder">3. Konkurencja</h2>
+               <textarea name="konkurencja" id="konkurencja" cols="60" rows="10" placeholder="Opisz swój rynek oraz swoją konkurencji, może masz pomysł co ma Ciebie wyróżniać."></textarea>
+            </div>
+            <div class="section-four">
+               <h2 class="placeholder">4. Wiek grupy docelowej</h2>
+
+
+            </div>
+            <div class="section-five">
+               <h2 class="placeholder">5. Deadline</h2>
+               <input type="text" name="deadline" id="deadline" placeholder="Planowany termin realizacji działań">
+            </div>
+            <div class="section-six">
+               <h2 class="placeholder">6. O projekcie</h2>
+               <textarea name="oprojekcie" id="oprojekcie" cols="60" rows="10" placeholder="Opis produktów lub marek, których kampania dotyczy"></textarea>
+            </div>
+            <div class="section-seven">
+               <h2 class="placeholder">7. Ambicje marki</h2>
+               <textarea name="ambicje" id="ambicje" cols="60" rows="10" placeholder="Jaka jest wizja rozwoju marki: dokąd zmierzamy, jaką pozycję chcemy zająć na rynku i jak chcemy być postrzegani.."></textarea>
+            </div>
+            <div class="section-eight">
+               <h2 class="placeholder">8. Własny pomysł</h2>
+               <textarea name="wlasny-pomysl" id="wlasny-pomysl" cols="60" rows="10" placeholder="Jeśli posiadasz jakiś pomysł na projekt, przedstaw go nam byśmy widzieli twoją wizje"></textarea>
+            </div>
+            <div class="section-nine">
+               <h2 class="placeholder">9. Budżet</h2>
+
+
+            </div>
+            <div class="section-ten">
+               <h2 class="placeholder">10. Załączniki</h2>
+               <input type="file" name="attachments">
+
+
+            </div>
+         </form>
+      </div>
+
+   </section>
+
+</body>
+
+</html>

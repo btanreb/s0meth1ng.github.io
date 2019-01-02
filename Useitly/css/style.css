@@ -2553,3 +2553,162 @@ section.our-realizations-2 a.or2-feedback {
         width: 280px;
     }
 }
+
+
+/*      E N D       O U R     R E A L I Z A T I O N S     2         */
+
+/*          S T A R T    B R I E F        */
+
+section.brief {
+    margin: 0 auto;
+    padding: 140px;
+}
+
+section.brief div.brief-welcome {
+    text-align: center;
+    margin: 0 100px 100px;
+}
+
+section.brief div.brief-welcome h1 {
+    color: #241f1f;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 30px;
+}
+
+section.brief div.brief-welcome p {
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+section.brief div.brief-form form div.section-one {
+    position: relative;
+}
+
+section.brief div.brief-form form div.section-one input {
+    display: block;
+    margin: 16px 0;
+    padding-left: 20px;
+    width: 378px;
+    height: 45px;
+    color: #372a2a;
+    font-size: 16px;
+    border-radius: 23px;
+    border: 1px solid #bbbbbb;
+    background-color: #f2f2f2;
+}
+
+section.brief div.brief-form form h2.placeholder {
+    color: #2d2727;
+    font-size: 36px;
+    padding: 40px 0 30px;
+}
+
+section.brief div.brief-form form img {
+    position: absolute;
+    left: 530px;
+    top: 85px;
+}
+
+
+/* The container */
+section.brief div.brief-form form div.section-two .container {
+    display: block;
+    position: relative;
+    padding-left: 65px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    line-height: 45px;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Hide the browser's default checkbox */
+section.brief div.brief-form form div.section-two .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+section.brief div.brief-form form div.section-two .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 45px;
+    width: 45px;
+    border-radius: 13px;
+    border: 1px solid #bbbbbb;
+    background-color: #f2f2f2;
+}
+
+/* On mouse-over, add a grey background color */
+section.brief div.brief-form form div.section-two .container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+section.brief div.brief-form form div.section-two .container input:checked~.checkmark {
+    background-color: #2f6dff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+section.brief div.brief-form form div.section-two .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+section.brief div.brief-form form div.section-two .container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+section.brief div.brief-form form div.section-two .container .checkmark:after {
+    left: 16px;
+    top: 7px;
+    width: 9px;
+    height: 20px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+section.brief div.brief-form form textarea {
+    min-width: 780px;
+    min-height: 198px;
+    max-width: 1200px;
+    max-height: 800px;
+    padding: 15px;
+    color: #241d1d;
+    font-size: 16px;
+    border-radius: 23px;
+    border: 1px solid #bbbbbb;
+    background-color: #f2f2f2;
+}
+
+section.brief div.brief-form form div.section-five input {
+    display: block;
+    padding-left: 20px;
+    width: 378px;
+    height: 45px;
+    color: #372a2a;
+    font-size: 16px;
+    border-radius: 23px;
+    border: 1px solid #bbbbbb;
+    background-color: #f2f2f2;
+}
