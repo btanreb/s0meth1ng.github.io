@@ -38,13 +38,7 @@
    text-decoration: none;
 }
 
-/* menu */
 
-.nav .menu {
-   clear: both;
-   max-height: 0;
-   transition: max-height .2s ease-out;
-}
 
 /* menu icon */
 
@@ -55,6 +49,7 @@
    padding: 28px 20px;
    position: relative;
    user-select: none;
+   z-index: 1;
 }
 
 .nav .menu-icon .navicon {
@@ -91,8 +86,86 @@
    display: none;
 }
 
-.nav .menu-btn:checked~.menu {
+/* menu */
+
+.nav .menu {
+   clear: both;
+   background: transparent;
+   margin: -20px auto 0 auto;
+}
+.nav .menu li{
+    margin: 10px 0;
+}
+.nav .menu li.brief{
+    background: #FFFFFF;
+    border-radius: 25px;
+    padding: 4px 20px;
+    margin-top: 30px;
+}
+.nav .menu li.brief a{
+    color: #2f6dfe!important;
+    text-transform: uppercase;
+}
+.logo-white{
+    display: none;
+}
+
+.menu-ctn{
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+.nav .menu-btn:checked~.menu-ctn{
    max-height: 240px;
+   background: #2f6dfe;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   max-height: none;
+   margin: 0;
+   opacity: 1;
+   visibility: visible;
+}
+.nav .menu-btn:checked~.menu-ctn .switch-button-li{
+    display: none;
+}
+.nav .menu-btn:checked~.menu-icon{
+    background: #FFFFFF;
+    border-radius: 50%;
+    padding: 16px 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 86px 0 0 14px;
+    z-index: 2;
+}
+.nav .menu-btn:checked~.menu-icon .navicon:before, .nav .menu-btn:checked~.menu-icon .navicon:after{
+    background: #2f6dfe;
+    height: 3px;
+    width: 20px;
+}
+.nav .menu-btn:checked~.logo-white{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: 81px;
+}
+.nav .menu-btn:checked~.logo-white img{
+    max-width: 110px;
+}
+.nav .menu-btn:checked~.menu-ctn a{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .nav .menu-btn:checked~.menu-icon .navicon {
