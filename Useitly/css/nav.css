@@ -33,9 +33,22 @@
 
 .nav .logo {
    display: block;
-   float: left;
    padding: 10px 20px 0 40px;
    text-decoration: none;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   text-align: center;
+   padding: 14px 0 0 0;
+}
+.nav .logo img{
+    max-width: 104px;
+}
+.language-switch{
+    float: right;
+    color: #2f6dfe;
+    padding: 21px 14px 0 0;
 }
 
 
@@ -45,25 +58,25 @@
 .nav .menu-icon {
    cursor: pointer;
    display: inline-block;
-   float: right;
-   padding: 28px 20px;
+   float: left;
+   padding: 27px 15px;
    position: relative;
    user-select: none;
    z-index: 1;
 }
 
 .nav .menu-icon .navicon {
-   background: #333;
+   background: #2f6dfe;
    display: block;
-   height: 2px;
+   height: 6px;
    position: relative;
    transition: background .2s ease-out;
-   width: 18px;
+   width: 49px;
 }
 
 .nav .menu-icon .navicon:before,
 .nav .menu-icon .navicon:after {
-   background: #333;
+   background: #2f6dfe;
    content: '';
    display: block;
    height: 100%;
@@ -73,12 +86,18 @@
 }
 
 .nav .menu-icon .navicon:before {
-   top: 5px;
+   top: 14px;
 }
 
 .nav .menu-icon .navicon:after {
-   top: -5px;
+   top: -14px;
 }
+
+.nav .menu-btn:checked~.menu-icon .navicon{
+    width: 18px;
+    height: 2px;
+}
+
 
 /* menu btn */
 
@@ -240,4 +259,7 @@
         color: #000000!important;
         text-transform: none;
     }
+
+
+
 }
