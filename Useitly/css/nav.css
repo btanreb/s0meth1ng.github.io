@@ -260,6 +260,14 @@
         text-transform: none;
     }
 
+    .nav .logo{
+        position: relative;
+        padding: 10px 20px 0 40px;
+        float: left;
+    }
+    .nav .logo img{
+        max-width: none;
+    }
 
 
 }
