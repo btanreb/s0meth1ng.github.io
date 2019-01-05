@@ -216,3 +216,28 @@
       transform: translateY(-5px);
    }
 }
+
+
+@media screen and (min-width: 1024px){
+    .menu-ctn{
+        opacity: 1;
+        visibility: visible;
+        max-height: none;
+        display: block;
+    }
+    .menu-ctn ul.menu{
+        margin: 20px 0;
+    }
+    .menu-ctn ul.menu li{
+        margin: 0;
+    }
+    .nav .menu li.brief{
+        padding: 5px 0;
+        margin: 0;
+        border-radius: 0;
+    }
+    .nav .menu li.brief a{
+        color: #000000!important;
+        text-transform: none;
+    }
+}
